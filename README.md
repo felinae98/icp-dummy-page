@@ -28,6 +28,12 @@ docker build --build-arg "ICP=京ICP备xxxxxx" -t dummpy-page .
 
 ### Direct deployment
 
+#### Input your ICP number
+
+```bash
+echo "VUE_APP_ICP=京ICP备xxxxxxx" > .env.local
+```
+
 #### Install dependencies
 
 ```bash
